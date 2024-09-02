@@ -4,15 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Store {
-    private String name;
-    private String owner;
-    private String taxIdentifier;
     private List<Computer> computers;
 
     public Store(String name, String owner, String taxIdentifier) {
-        this.name = name;
-        this.owner = owner;
-        this.taxIdentifier = taxIdentifier;
+
         this.computers = new ArrayList<>();
     }
 
